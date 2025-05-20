@@ -341,3 +341,18 @@ Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:YMazurau/Lesta_02_git.git
  * [new tag]         v.1.0.0 -> v.1.0.0
  * [new tag]         v1.0.0 -> v1.0.0
+```
+
+```
+ym@Evgeniy:~/Lesta_hw2$ git push --all origin
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 820 bytes | 820.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:YMazurau/Lesta_02_git.git
+ * [new branch]      feature/api -> feature/api
+ * [new branch]      feature/ui -> feature/ui
+``` 
